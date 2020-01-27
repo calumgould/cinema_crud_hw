@@ -23,7 +23,35 @@ Use the supplied data as the source of data to answer the questions. Copy the SQ
 ## Questions
 
 1.  Return ALL the data in the 'movies' table.
+
+SELECT * FROM movies;
+
+id |                title                | year | show_time
+----+-------------------------------------+------+-----------
+ 1 | Iron Man                            | 2008 | 17:00
+ 2 | The Incredible Hulk                 | 2008 | 23:55
+ 3 | Iron Man 2                          | 2010 | 18:45
+ 4 | Thor                                | 2011 | 15:45
+ 5 | Captain America: The First Avenger  | 2011 | 14:15
+ 6 | Avengers Assemble                   | 2012 | 14:45
+ 7 | Iron Man 3                          | 2013 | 21:55
+ 8 | Thor: The Dark World                | 2013 | 22:55
+ 9 | Batman Begins                       | 2005 | 13:40
+10 | Captain America: The Winter Soldier | 2014 | 18:25
+11 | Guardians of the Galaxy             | 2014 | 13:10
+12 | Avengers: Age of Ultron             | 2015 | 20:20
+13 | Ant-Man                             | 2015 | 13:00
+14 | Captain America: Civil War          | 2016 | 12:35
+15 | Doctor Strange                      | 2016 | 22:00
+16 | Guardians of the Galaxy 2           | 2017 | 14:05
+17 | Spider-Man: Homecoming              | 2017 | 23:00
+18 | Thor: Ragnarok                      | 2017 | 22:10
+19 | Black Panther                       | 2018 | 21:00
+(19 rows)
+
 2.  Return ONLY the name column from the 'people' table
+
+
 3.  Oops! Someone spelled Krusty The Clown's name wrong! Change it to reflect the proper spelling (Crusty should be Krusty).
 4.  Return ONLY Homer Simpson's name from the 'people' table.
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
